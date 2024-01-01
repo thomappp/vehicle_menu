@@ -50,10 +50,10 @@ function VEHICLE:Thread()
                 end
             end)
 
-            Items:AddButton("Sièges", nil, { IsDisabled = false }, function(onSelected)
+            Items:AddButton("Sièges", nil, { IsDisabled = false, RightLabel = "→" }, function(onSelected)
             end, SeatMenu)
 
-            Items:AddButton("Portes", nil, { IsDisabled = false }, function(onSelected)
+            Items:AddButton("Portes", nil, { IsDisabled = false, RightLabel = "→" }, function(onSelected)
             end, DoorMenu)
 
             Items:AddSeparator("~y~Informations")
