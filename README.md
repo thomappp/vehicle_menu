@@ -13,3 +13,5 @@ Menu Key: **F10**
 - vehicle state
 - engine state
 - engine temperature
+
+![screen](https://github.com/thomappp/vehicle_menu_script/blob/main/screenshot.png)
